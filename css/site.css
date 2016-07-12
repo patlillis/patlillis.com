@@ -1,0 +1,65 @@
+html {
+  background: url(../img/bg_laptop_blurred.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.title {
+	font-family: Sansation, sans-serif;
+	font-size: 120px;
+	color: white;
+	text-align: center;
+	margin-top: 15%;
+}
+
+.subtitle {
+	font-family: Sansation, sans-serif;
+	font-size: 72px;
+	color: white;
+	text-align: center;
+}
+
+.divider {
+	width: 150px;
+	height: 5px;
+	background-color: white;
+	margin: 25px auto;
+}
+
+.info-wrapper {
+	position: absolute;
+    bottom: 25px;
+    right: 0;
+	left: 0;
+	margin: auto;
+}
+
+.info {
+	text-align: center;
+}
+
+.info-item {
+	display: inline-block;
+    vertical-align: top;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 22px;
+}
+
+.info-item a {
+	color: white;
+	text-decoration: none;
+}
+
+.info-item a:hover {
+	text-decoration: underline;
+}
+
+.info-item:not(:first-child):before {
+    content: "/";
+    margin: 0 5px;
+	color: white;
+}
