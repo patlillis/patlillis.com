@@ -66,3 +66,47 @@ html {
     margin: 0 5px;
 	color: white;
 }
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+	.title {
+		font-size: 72px;
+	}
+
+	.subtitle {
+		font-size: 48px;
+	}
+
+	.info-item {
+		font-size: 18px;
+	}
+
+	.info-wrapper {
+		padding: 20px 0;
+	}
+}
+
+/* Super-small mobile styles */
+@media (max-width: 350px) {
+	.title {
+		font-size: 48px;
+	}
+
+	.subtitle {
+		font-size: 32px;
+	}
+
+	.info-item {
+		font-size: 18px;
+		display: block;
+		margin: 7px;
+	}
+
+	.info-wrapper {
+		padding: 5px 0;
+	}
+
+	.info-item:not(:first-child):before {
+		content: none;
+	}
+}
