@@ -67,7 +67,7 @@ html {
 	color: white;
 }
 
-/* Mobile Styles */
+/* Mobile styles */
 @media (max-width: 600px) {
 	.title {
 		font-size: 72px;
